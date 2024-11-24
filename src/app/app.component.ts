@@ -64,6 +64,7 @@ export class AppComponent {
 
   getFternismatologio(){
 
+    
     return this.fternismatologio[this.getTimeSlotIndex()]
 
   }

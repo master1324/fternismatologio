@@ -1,3 +1,7 @@
-runtime: python39 
-entrypoint: gunicorn -b :$PORT main:app 
-env_variables:   GINICORN_PORT: 8080
+runtime: nodejs22
+
+
+handlers:
+- url: /
+  static_files: dist/fternismatologio/browser/index.html
+  upload: dist/fternismatologio/browser/index.html 
