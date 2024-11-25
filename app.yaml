@@ -5,3 +5,15 @@ handlers:
 - url: /
   static_files: dist/fternismatologio/browser/index.html
   upload: dist/fternismatologio/browser/index.html 
+
+- url: /main-ENCKRH5H.js
+  static_files: dist/fternismatologio/browser/main-ENCKRH5H.js
+  upload: dist/fternismatologio/browser/main-ENCKRH5H.js  
+
+- url: /polyfills-FFHMD2TL.js
+  static_files: dist/fternismatologio/browser/polyfills-FFHMD2TL.js
+  upload: dist/fternismatologio/browser/polyfills-FFHMD2TL.js
+
+- url: /(.+\.css)
+  static_files: dist/fternismatologio/browser/styles-NTUDH63U.css
+  upload: dist/fternismatologio/browser/styles-NTUDH63U.css
